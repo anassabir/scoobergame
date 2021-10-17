@@ -1,0 +1,9 @@
+target/*
+.idea/*
+*.iml
+*.class
+*.project
+.settings/*
+*.classpath
+*.iml
+src/main/resources/application-dev.yml
