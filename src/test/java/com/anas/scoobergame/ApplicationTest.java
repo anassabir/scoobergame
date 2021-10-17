@@ -58,7 +58,7 @@ public class ApplicationTest {
                 .andExpect(content().string(containsString("Game is running.")));
     }
 
-/*
+
     @Test
     public void createNewGame() throws Exception {
         GameRequestObjectDTO requestObjectDTO = new GameRequestObjectDTO();
@@ -121,7 +121,7 @@ public class ApplicationTest {
                 .andExpect(jsonPath("$.['name']", is("player 1")))
                 .andExpect(jsonPath("$.['playerKind']", is("HUMAN")));
     }
-*/
+	
     @Test
     public void GameService() {
         assertNotNull(gameService);
