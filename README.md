@@ -28,7 +28,6 @@ Once the application is running you can check whether your application is up and
 ```
 localhost:8081/api/v1/game/health
 ```    
-and getting the response 'Nothing'!!
 # API
 ## Start a Game
 To start a game, send a ***POST*** request to:
